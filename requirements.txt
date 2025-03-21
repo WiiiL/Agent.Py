@@ -1,0 +1,14 @@
+# Dependências para IA
+google-generativeai>=0.4.0
+requests>=2.28.0
+
+# Dependências para o Agente Executor
+Flask>=2.2.0
+pyodbc>=4.0.30
+pandas>=2.0.0
+
+# Dependências comuns
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pytest>=7.0.0
+logging>=0.5.1 

@@ -1,0 +1,33 @@
+POLÍTICAS DE ACESSO A DADOS
+
+1. INTRODUÇÃO
+Este documento descreve as políticas de acesso e uso de dados no sistema de vendas da empresa.
+
+2. NÍVEIS DE ACESSO
+2.1. Nível Administrativo (ADMIN)
+- Podem visualizar informações básicas do cadastro
+
+3. RESTRIÇÕES GERAIS
+3.1. Dados Sensíveis
+- Informações de pagamento dos clientes são criptografadas
+- Apenas números parciais de cartões podem ser visualizados
+- Dados pessoais dos clientes são regulados pela LGPD
+
+3.2. Operações Proibidas
+- Exclusão permanente de registros de vendas
+- Alteração de registros históricos com mais de 30 dias
+- Acesso a dados de clientes fora do contexto de atendimento
+- Extração em massa de dados do sistema
+
+4. AUDITORIA
+- Todas as consultas são registradas em logs
+- Acessos a dados sensíveis são monitorados
+- Alterações em registros são gravadas com data, hora e usuário
+- Tentativas de acesso não autorizado são reportadas automaticamente
+
+5. CONSULTAS PERMITIDAS
+5.1. Consultas de Negócio Comuns
+- Cadastro por período
+
+5.2. Exemplos de Consultas Permitidas
+- "Mostrar cadastros do último mês"

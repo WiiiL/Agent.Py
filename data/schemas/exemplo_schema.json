@@ -1,0 +1,39 @@
+{
+    "Cadastro": {
+        "tabela": "Cadastro",
+        "colunas": {
+            "CadastroId": {
+                "tipo": "int",
+                "primaryKey": true,
+                "autoIncrement": true,
+                "descricao": "Identificador único do cadastro"
+            },
+            "Nome": {
+                "tipo": "varchar(100)",
+                "nullable": false,
+                "descricao": "Nome completo do cadastro"
+            },
+            "Email": {
+                "tipo": "varchar(100)",
+                "nullable": true,
+                "descricao": "Endereço de email do cadastro"
+            },
+            "Celular": {
+                "tipo": "varchar(20)",
+                "nullable": true,
+                "descricao": "Número de celular do cadastro"
+            },
+            "Status": {
+                "tipo": "varchar(20)",
+                "nullable": false,
+                "descricao": "Status do cliente (Ativo, Inativo, Bloqueado)"
+            },
+            "DataInclusao": {
+                "tipo": "datetime",
+                "nullable": false,
+                "descricao": "Data e hora de inclusão do cadastro"
+            }
+        },
+        "descricao": "Tabela com informações dos cadastros"
+    }
+}

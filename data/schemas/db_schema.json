@@ -1,0 +1,71 @@
+{
+    "Cadastro": {
+        "nome": "Cadastro",
+        "descricao": "Tabela de cadastros de pessoas",
+        "campos": [
+            {
+                "nome": "CadastroId",
+                "tipo": "int",
+                "descricao": "Identificador único do cadastro",
+                "is_primary_key": true,
+                "is_nullable": false
+            },
+            {
+                "nome": "Nome",
+                "tipo": "varchar(100)",
+                "descricao": "Nome completo da pessoa",
+                "is_primary_key": false,
+                "is_nullable": false
+            },
+            {
+                "nome": "Email",
+                "tipo": "varchar(200)",
+                "descricao": "Endereço de email da pessoa",
+                "is_primary_key": false,
+                "is_nullable": true
+            },
+            {
+                "nome": "Celular",
+                "tipo": "varchar(20)",
+                "descricao": "Número de celular para contato",
+                "is_primary_key": false,
+                "is_nullable": true
+            },
+            {
+                "nome": "DataNascimento",
+                "tipo": "date",
+                "descricao": "Data de nascimento da pessoa",
+                "is_primary_key": false,
+                "is_nullable": true
+            },
+            {
+                "nome": "Documento",
+                "tipo": "varchar(20)",
+                "descricao": "Número de documento (CPF/CNPJ)",
+                "is_primary_key": false,
+                "is_nullable": true
+            },
+            {
+                "nome": "Ativo",
+                "tipo": "boolean",
+                "descricao": "Status do cadastro (1 = Ativo, 0 = Inativo)",
+                "is_primary_key": false,
+                "is_nullable": false
+            },
+            {
+                "nome": "DataInclusao",
+                "tipo": "datetime",
+                "descricao": "Data e hora em que o cadastro foi incluído",
+                "is_primary_key": false,
+                "is_nullable": false
+            },
+            {
+                "nome": "DataAlteracao",
+                "tipo": "datetime",
+                "descricao": "Data e hora da última alteração no cadastro",
+                "is_primary_key": false,
+                "is_nullable": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "endpoints": {
+        "/api/cadastro": {
+            "metodos": [
+                "GET",
+                "POST"
+            ],
+            "descricao": "Gerenciamento de cadastros",
+            "parametros": {
+                "nome": "Filtrar por nome (pesquisa parcial)",
+                "email": "Filtrar por email exato",
+                "status": "Filtrar por status (Ativo, Inativo)",
+                "dataInclusao": "Filtrar por data de cadastro inicial"
+            },
+            "permissoes": [
+                "administrativo"
+            ],
+            "exemplo": "/api/cadastro?status=Ativo&dataInclusao=2023-01-01"
+        }
+    }
+}
